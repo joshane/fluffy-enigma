@@ -48,7 +48,7 @@ public class ChillrAutomate {
 
 
         WebElement PhoneNumberEntry= driver.findElement(By.id("in.chillr:id/phone_number"));
-        PhoneNumberEntry.sendKeys("9742817318");
+        PhoneNumberEntry.sendKeys("phone number");
         WebElement getStartedButton= driver.findElement(By.id("in.chillr:id/button_get_started"));
         getStartedButton.click();
 
@@ -62,9 +62,9 @@ public class ChillrAutomate {
         /* Testing Registration Flow */
 
         WebElement UserName = driver.findElement(By.id("in.chillr:id/user_name"));
-        UserName.sendKeys("Joshane Kelsy");
+        UserName.sendKeys("User Name");
         WebElement eMail = driver.findElement(By.id("in.chillr:id/user_email"));
-        eMail.sendKeys("joshane.kelsy@chillr.in");
+        eMail.sendKeys("email");
 
         eMail.click();
 
